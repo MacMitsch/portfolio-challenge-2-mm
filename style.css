@@ -8,7 +8,7 @@
 body {
     background-color: rgb(3, 124, 161)  
 }
-
+  
 html {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -48,5 +48,69 @@ li a{
 
 }
 
+/* Hero section */
+.container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+ /* Fix image image before Deployyyyyyying */
+/* .image-container { 
+    position: relative;
+    background-image: url(/Images/hero-mm.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 0vh;
+    animation: scale 15s;
+}
+@keyframes scale {
+    0% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+    .overlay {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0,0, .4);
+        z-index: 1;
+    } */
+.hero-text{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    font-size: 25px;
+    color: whitesmoke;
+    text-transform: uppercase;
+    z-index: 2s;
+}
+.firstword {
+    color: black
+}
+.resume-cta {
+    border: 2px solid;
+    color: whitesmoke ;
+    width: 175px;
+    padding: 30px;
+    margin-top: 20px;
+}
 
-    
+.resume-text{
+    color: whitesmoke;
+}
+
+.resume-cta:hover {
+    background-color: rgba(133, 132, 132, 0.5);
+}
