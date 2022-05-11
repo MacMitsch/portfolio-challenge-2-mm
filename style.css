@@ -5,9 +5,9 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: rgb(3, 124, 161)  
-}
+ body {
+    background-color: rgb(0, 136, 70)  
+} 
   
 html {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -31,7 +31,7 @@ ul{
     align-items: center;
     justify-content: space-between;
     padding: 0 10%;
-    list-style: none;
+    list-style: none; 
     height: 10vh;
     background-color: rgba(133, 132, 132, 0.5);
 }
@@ -49,40 +49,25 @@ li a{
 }
 
 /* Hero section */
-.container {
+ .container {
     position: relative;
-    height: 100vh;
+    height: 25vh;
     width: 100%;
     overflow: hidden;
-}
- /* Fix image image before Deployyyyyyying */
-/* .image-container { 
-    position: relative;
-    background-image: url(/Images/hero-mm.jpeg);
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-    width: 100%;
-    margin-top: 0vh;
-    animation: scale 15s;
-}
-@keyframes scale {
-    0% {
-        transform: scale(1.5);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-    .overlay {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        top: 0;
-        left: 0;
-        background: rgba(0, 0,0, .4);
-        z-index: 1;
-    } */
+} 
+.image-contain {
+    background-image: url(images/Turtles.jpeg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 25vh;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+
+   
+} 
+
 .hero-text{
     display: flex;
     justify-content: center;
@@ -99,18 +84,11 @@ li a{
 .firstword {
     color: black
 }
-.resume-cta {
-    border: 2px solid;
-    color: whitesmoke ;
-    width: 175px;
-    padding: 30px;
-    margin-top: 20px;
-}
 
-.resume-text{
-    color: whitesmoke;
-}
+/* Projects section */
 
-.resume-cta:hover {
-    background-color: rgba(133, 132, 132, 0.5);
+.projects{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
 }
