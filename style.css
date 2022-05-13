@@ -49,6 +49,8 @@ li a{
     text-decoration: wavy;
     font-size: 24px;
 }
+
+
 #name{
     color: black;
     font-size: 30px;
@@ -71,6 +73,7 @@ li a{
     height: 100vh;
     overflow: hidden;
     display:flex;
+    border-radius: 0 0px 15px 15px;
 } 
 
 .resume{
@@ -101,7 +104,60 @@ li a{
     text-align: center;
 }
 .project-container {
-    display:flex{
-        flex:1
-    }
+   width: 100%;
+   height: auto;
 }
+.project-header {
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+}
+/* projects flex box designs */
+.horiseon{
+    width: 50vh;
+    height: 50vh;
+    position: relative;
+    border-radius: 10px;
+    margin: 5vh;
+     background-image: url(images/Horiseonscreenshot.jpeg); 
+    background-size: cover;
+    background-position: center;
+}
+.horiseon:hover{
+    height: 500px;
+}
+.run-buddy{
+    width: 50vh;
+    height: 50vh;
+    position: relative;
+    border-radius: 10px;
+    margin: 5vh;
+    background-image: url(images/hero-bg.jpeg); 
+    background-size:600px;
+    background-position: center;
+}
+.run-buddy:hover{
+    height: 500px;
+}
+ .text-container{
+    position: absolute;
+    height: 30px;
+    width: 100%;
+    z-index: 2;
+    top: 0;
+    background-color: rgba(133, 132, 132, 0.5);
+    border-radius: 10px 10px 0 0;
+    overflow: hidden; 
+}
+/* see about getting content to appear when hover over image instead of text */
+/* .text-container:hover{
+    height: vh;
+} */
