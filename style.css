@@ -132,7 +132,7 @@ li a{
     background-position: center;
 }
 .horiseon:hover{
-    height: 500px;
+    height: 55vh;
 }
 .run-buddy{
     width: 50vh;
@@ -141,11 +141,11 @@ li a{
     border-radius: 10px;
     margin: 5vh;
     background-image: url(images/hero-bg.jpeg); 
-    background-size:600px;
-    background-position: center;
+   background-size: cover;
+    background-repeat: no-repeat;
 }
 .run-buddy:hover{
-    height: 500px;
+    height: 55vh;
 }
  .text-container{
     position: absolute;
