@@ -1,5 +1,7 @@
-/* Website is inspired by DThompsonDev */
-/* Universal Styles */
+:root{
+    --primary: #(0,57,136);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -80,13 +82,13 @@ li a{
 .resume{
     display: flex;
     justify-content: center;
-    align-items: left;
+    /* align-items: left; */
     flex-direction: column;
     position: absolute;
     top: 15%;
     left: 9%;
     font-size: 30px;
-    /* color: rgba(133, 132, 132, 1); */
+     color: rgb(0, 0, 0); 
     z-index: 2;
     border: 3px solid;
     padding: 25px;
@@ -104,6 +106,7 @@ li a{
     margin: 20px;
 }
 .about-me{
+    justify-content: center;
     width: 800px;
     height: 30vh;
     flex: 1;
