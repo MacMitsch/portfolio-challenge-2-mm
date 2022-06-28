@@ -70,8 +70,8 @@ li a{
 } 
 
 .image-contain {
-    background-image: url(Images/hero-mm.jpeg); 
-     background-position: center;
+    background-image: url(./Images/hero-mm.jpeg); 
+    background-position: center;
     background-size: cover;
     height: 100vh;
     overflow: hidden;
