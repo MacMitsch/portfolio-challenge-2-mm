@@ -1344,6 +1344,7 @@ mark {
 		border: 0;
 		display: inline-block;
 		position: relative;
+		
 	}
 
 		.image:before {
@@ -1365,6 +1366,7 @@ mark {
 
 		.image.thumb {
 			text-align: center;
+			
 		}
 
 			 .image.thumb:after {
